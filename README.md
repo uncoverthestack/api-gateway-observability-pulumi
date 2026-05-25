@@ -6,9 +6,9 @@ A reusable **Pulumi** template that provisions CloudWatch dashboards, automated 
 
 Point this at any existing API Gateway, run `pulumi up`, and get:
 
-- **CloudWatch Dashboard** — 10 widgets covering request count, latency percentiles (p50/p90/p99), error rates (4XX/5XX), Lambda duration, invocations, and throttles
-- **5 CloudWatch Alarms** — high latency, high error rate, API downtime, Lambda errors, and request throttling
-- **SNS Email Alerts** — alarm notifications delivered to your inbox with direct links to the affected alarm
+- **CloudWatch Dashboard** - 10 widgets covering request count, latency percentiles (p50/p90/p99), error rates (4XX/5XX), Lambda duration, invocations, and throttles
+- **5 CloudWatch Alarms** - high latency, high error rate, API downtime, Lambda errors, and request throttling
+- **SNS Email Alerts** - alarm notifications delivered to your inbox with direct links to the affected alarm
 
 No console clicking. No manual setup. No copy-pasting JSON. Just config and deploy.
 
