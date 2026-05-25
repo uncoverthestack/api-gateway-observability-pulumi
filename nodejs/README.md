@@ -1,4 +1,4 @@
-# API Observability Template — Node.js / TypeScript
+# API Observability Template Node.js / TypeScript
 
 The TypeScript implementation of the API Gateway observability template, built with Pulumi.
 
@@ -134,4 +134,5 @@ pulumi stack rm dev
 
 This template is also available in:
 - [Python](../python/)
-- [Go](../golang/) (coming soon)
+- [Go](../golang/) (Available)
+
