@@ -10,8 +10,6 @@ Point this at any existing API Gateway, run `pulumi up`, and get:
 - **5 CloudWatch Alarms** - high latency, high error rate, API downtime, Lambda errors, and request throttling
 - **SNS Email Alerts** - alarm notifications delivered to your inbox with direct links to the affected alarm
 
-No console clicking. No manual setup. No copy-pasting JSON. Just config and deploy.
-
 ## Architecture
 
 ```
@@ -52,7 +50,7 @@ python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 
-# Configure — point at your existing API Gateway
+# Configure, point at your existing API Gateway
 pulumi stack init prod
 pulumi config set aws:region eu-west-2
 pulumi config set alert_email your@email.com
@@ -118,7 +116,7 @@ aws lambda list-functions --query "Functions[].FunctionName" --output text
 
 ```
 api-observability-platform/
-├── __main__.py                       # Entry point — reads config, wires modules
+├── __main__.py                       # Entry point, reads config, wires modules
 ├── Pulumi.yaml                       # Project definition
 ├── Pulumi.dev.yaml                   # Example config
 ├── requirements.txt
@@ -162,6 +160,3 @@ pulumi stack rm dev
 - [AWS CloudWatch](https://aws.amazon.com/cloudwatch/) — Monitoring & Observability
 - [AWS SNS](https://aws.amazon.com/sns/) — Alert Notifications
 
-## License
-
-MIT
