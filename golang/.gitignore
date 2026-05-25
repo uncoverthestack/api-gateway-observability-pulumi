@@ -1,0 +1,5 @@
+vendor/
+*.log
+.pulumi/
+.DS_Store
+bin/
