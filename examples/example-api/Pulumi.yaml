@@ -1,0 +1,9 @@
+name: example-api
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: >
+  A minimal example API for testing the api-gateway-observability-pulumi
+  monitoring template. Deploys an API Gateway with two Lambda endpoints
+  for generating realistic test traffic.
