@@ -1,0 +1,10 @@
+config:
+  aws:region: eu-west-2
+  api-observability-platform:alert_email: your-email@example.com
+  api-observability-platform:api_gateway_name: your-api-gateway-name
+  api-observability-platform:stage_name: dev
+  api-observability-platform:lambda_function_names: function-1,function-2,function-3
+  api-observability-platform:environment: dev
+  api-observability-platform:project_name: my-project
+  api-observability-platform:latency_threshold_ms: "3000"
+  api-observability-platform:error_rate_threshold: "5"
