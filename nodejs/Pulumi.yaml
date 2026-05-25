@@ -1,0 +1,5 @@
+name: api-observability-platform
+runtime: nodejs
+description: >
+  A reusable Pulumi template that provisions CloudWatch dashboards,
+  automated alarms, and SNS alerting for any AWS API Gateway.

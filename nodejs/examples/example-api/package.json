@@ -1,0 +1,19 @@
+{
+  "name": "example-api",
+  "version": "1.0.0",
+  "description": "Minimal example API for testing the monitoring template",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "up": "pulumi up",
+    "destroy": "pulumi destroy"
+  },
+  "dependencies": {
+    "@pulumi/aws": "^6.0.0",
+    "@pulumi/pulumi": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
