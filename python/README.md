@@ -142,3 +142,4 @@ pulumi stack rm dev
 This template is also available in:
 - [Node.js / TypeScript](../nodejs/) (coming soon)
 - [Go](../golang/) (coming soon)
+
