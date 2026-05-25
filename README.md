@@ -160,3 +160,10 @@ pulumi stack rm dev
 - [AWS CloudWatch](https://aws.amazon.com/cloudwatch/) — Monitoring & Observability
 - [AWS SNS](https://aws.amazon.com/sns/) — Alert Notifications
 
+<<<<<<< Updated upstream
+=======
+## License
+
+MIT
+# API-gateway-observability-pulumi
+>>>>>>> Stashed changes
