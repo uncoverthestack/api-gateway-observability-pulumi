@@ -1,4 +1,4 @@
-# API Observability Template — Python
+# API Observability Template Python version
 
 The Python implementation of the API Gateway observability template, built with Pulumi.
 
@@ -140,6 +140,6 @@ pulumi stack rm dev
 ## Looking for Another Language?
 
 This template is also available in:
-- [Node.js / TypeScript](../nodejs/) (coming soon)
-- [Go](../golang/) (coming soon)
+- [Node.js / TypeScript](../nodejs/) (Available)
+- [Go](../golang/) (Available)
 
