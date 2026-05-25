@@ -1,8 +1,8 @@
-# API Gateway Observability — Pulumi Templates
+# API Gateway Observability Pulumi Templates
 
-A reusable Pulumi template that provisions CloudWatch dashboards, automated alarms, and SNS email alerts for any AWS API Gateway — in under 30 seconds.
+A reusable Pulumi template that provisions CloudWatch dashboards, automated alarms, and SNS email alerts for any AWS API Gateway in under 30 seconds.
 
-Available in **Python**, with **Node.js** and **Go** versions coming soon.
+Available in **Python**, **Node.js / TypeScript** and **Go** available.
 
 ## What It Does
 
@@ -19,14 +19,14 @@ No console clicking. No manual JSON. Just config and deploy.
 | Language | Status | Folder |
 |----------|--------|--------|
 | Python | ✅ Available | [`python/`](./python/) |
-| Node.js / TypeScript | 🚧 Coming soon | [`nodejs/`](./nodejs/) |
-| Go | 🚧 Coming soon | [`golang/`](./golang/) |
+| Node.js / TypeScript | ✅ Available| [`nodejs/`](./nodejs/) |
+| Go | ✅ Available | [`golang/`](./golang/) |
 
 Each language folder is self-contained with its own README and deployment instructions.
 
 ## Why Multiple Languages?
 
-Pulumi lets you write infrastructure in real programming languages — not config files. Teams already have a preferred language for their codebase, and forcing them to learn a new one just for infrastructure is friction. This template provides identical functionality across Python, Node.js, and Go so any team can adopt it.
+Pulumi lets you write infrastructure in real programming languages not config files. Teams already have a preferred language for their codebase, and forcing them to learn a new one just for infrastructure is friction. This template provides identical functionality across Python, Node.js, and Go so any team can adopt it.
 
 ## Quick Start (Python)
 
@@ -51,7 +51,7 @@ Each language version includes an example API in its `examples/` folder. Deploy 
 
 A CloudWatch dashboard like this:
 
-> Screenshots coming soon — see `docs/images/`
+> Screenshots coming soon  see `docs/images/`
 
 An alarm email like this when something breaks:
 
